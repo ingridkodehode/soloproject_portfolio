@@ -1,5 +1,5 @@
 body {
-  background: #fae4e1;
+  background: #febafc;
   margin: 20px;
   font-family: "Courier New", Courier, monospace;
   font-size: 18px;
@@ -23,6 +23,8 @@ body {
   position: fixed;
   top: 0;
   width: 100%;
+  border-radius: 0 0 30px 30px;
+  box-shadow: 10px 10px #8a6592;
 }
 
 .topnav a {
@@ -32,7 +34,7 @@ body {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 20px;
   transition: 1s ease;
 }
 
@@ -54,33 +56,32 @@ body {
 .avatar {
   width: 130px;
   border-radius: 90px;
+  box-shadow: 10px 10px #8a6592;
+  transition: all 1s ease;
+}
+
+.avatar:hover {
+  width: 180px;
+  transition: 1s ease;
 }
 
 .card {
   margin: 0px auto;
-  color: #41333f;
-  background: radial-gradient(circle, #f7d1cd 0%, #9fb9e5 100%);
+  color: #855a90;
+  background: linear-gradient(135deg, #febafc 20%, #d796df);
   padding: 20px;
   width: 300px;
   text-align: center;
-  border-radius: 100px;
-  box-shadow: 10px 10px #f7d1cd;
-}
-
-.color img {
-  filter: opacity(40%);
-  transition: all 1s ease;
-}
-
-.color img:hover {
-  filter: opacity(100%);
-  transition: 1s ease;
+  font-size: small;
+  border-radius: 30px;
+  box-shadow: 10px 10px #8a6592;
 }
 
 .links {
-  text-decoration: none;
+  text-decoration: underline;
   color: #ea57c2;
-  font-weight: bold;
+  font-weight: bolder;
+  font-size: medium;
 }
 
 @font-face {
@@ -89,8 +90,31 @@ body {
 }
 
 .ghast {
+  color: #311841;
   margin-left: 10px;
   font-family: ghast;
   font-size: 20px;
+  letter-spacing: 10px;
+}
+
+.name {
+  color: #855a90;
+  margin-left: 10px;
+  font-size: 20px;
+  letter-spacing: 13px;
+}
+
+.first {
+  color: #ea57c2;
+  margin-left: 10px;
+  font-family: ghast;
+  font-size: 40px;
+  letter-spacing: 5px;
+}
+
+.logo {
+  margin-left: 40px;
+  font-family: ghast;
+  font-size: 23px;
   letter-spacing: 10px;
 }
