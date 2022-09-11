@@ -75,7 +75,7 @@ textarea {
   box-shadow: 10px 10px #8a6592;
 }
 
-input[type="submit"] {
+.btn {
   font-family: "Courier New", Courier, monospace;
   background-color: #ea57c2;
   color: white;
@@ -87,7 +87,7 @@ input[type="submit"] {
   margin-left: 20px;
 }
 
-input[type="submit"]:hover {
+.btn:hover {
   background-color: #ddd;
   color: #311841;
 }
